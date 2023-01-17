@@ -1,0 +1,180 @@
+$index: calc(1vh + 1vw);
+
+body {
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.valign-img {
+    vertical-align: middle;
+    width: 3em;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.some-effects {
+    font-size: 0.9rem;
+    width: 100%;
+
+    li {
+        margin-top: 0.4em;
+        width: 100%;
+        a {
+            padding: 6px;
+            width: 100%;
+            display: block;
+            &:hover {
+                background-color: rgba($color: #638ecb, $alpha: 0.3);
+            }
+        }
+    }
+    .badge {
+        font-size: 0.9em;
+    }
+}
+
+.friends-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .img-cont {
+        width: 3em;
+        margin: 0 0.3em;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.rem-pad {
+    margin: 0;
+    padding: 0;
+}
+
+.head-content {
+    border-top: solid 1px #eee;
+    .row {
+        .col {
+            &:first-child {
+                color: rgb(175, 175, 175);
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
+.middle-img {
+    vertical-align: middle;
+    padding-right: 2em;
+}
+
+.user-name {
+    span {
+        font-weight: lighter;
+        font-size: 0.6em;
+    }
+}
+
+.post-action {
+    div.col {
+        cursor: pointer;
+        border-radius: 5px;
+        transition-property: background-color;
+        transition-duration: 0.3s;
+        &:hover {
+            background-color: rgba(40, 40, 40, 0.1);
+        }
+    }
+}
+
+.my-card-title {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    font-weight: 900;
+}
+
+.over-height-img {
+    position: relative;
+}
+
+.gray-data-string {
+    font-size: .7em;
+    color: #a3a3a3;
+    i {
+        font-size: 1.1em;
+    }
+}
+
+.st {
+    position: sticky;
+    top: 0;
+    bottom: auto;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column-reverse;
+    .message {
+        display: flex;
+        align-items: center;
+        margin-top: 2em;
+
+        img {
+            max-width: 4em;
+        }
+        .mess-block {
+            p {
+                margin: 0;
+            }
+            .user-name {
+                font-weight: bold;
+            }
+            .time {
+                font-size: .8em;
+                color: #a3a3a3;
+
+            }
+        }
+    }
+    .message.me {
+        flex-direction: row-reverse;
+    }
+}
+
+.user-shorts {
+    display: flex;
+    align-items: center;
+
+    .user-name {
+        font-size: .95em;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: .85em;
+        margin: 0;
+    }
+
+    img {
+        width: 3em;
+    }
+}
+
+
+.data-form  {
+    margin-top: 5em;
+    width: 100%;
+
+    .input-f {
+        display: flex;
+    }
+
+}
